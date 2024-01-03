@@ -1,0 +1,171 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    height: 5pc;
+    background-color: #123;
+}
+
+header h2
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+header nav a{
+    font-size: 32px;
+    width: 15pc;
+    height: 40px;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+header nav a:hover
+{
+    background-color: white;
+    color: #123;
+    border: 2px solid #123;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conten
+{
+    position: relative;
+    margin-top: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    width: 100%;
+    height: 39pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #123;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.conten .small-conten
+{
+   display: flex;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    border: 2px solid black;
+    background-color: white;
+    
+    height: 36pc;
+    width: 70pc;
+   
+
+}
+#Clothes
+{margin-left: 60pc;}
+
+.conten .small-conten div 
+{
+
+    margin: 5px;
+    width: 40pc;
+    height: 35pc;
+    background-color: #123;
+}
+
+.image11
+{
+    height: 14pc;
+    width: 14pc;
+}
+.image1 p{
+    color: #fff;
+}
+
+footer
+{
+    background-color: #123;
+    width: 100%;
+    height: 21pc;
+    margin-top: 63px;
+}
+footer .Fotter-Contener
+{
+    display: flex;
+}
+footer .Branchs
+{
+    display: flex;
+}
+
+footer .Branchs h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 32px;
+    color: #fff;
+}
+footer .Branchs li
+{
+    font-size: 24px;
+    padding: 2pc;
+    list-style: none;
+
+}
+footer  .Branchs li ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+footer .contect
+{
+    display: flex;
+}
+
+footer .contect h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 32px;
+    color: #fff;
+}
+footer .contect li
+{
+    font-size: 24px;
+    padding: 2pc;
+    list-style: none;
+
+}
+footer  .contect li ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+footer .Acaunt
+{
+    display: flex;
+}
+
+footer .Acaunt h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 32px;
+    color: #fff;
+}
+footer .Acaunt li
+{
+    font-size: 24px;
+    padding: 2pc;
+    list-style: none;
+
+}
+footer  .Acaunt li ul a{
+    text-decoration: none;
+    color: #fff;
+}

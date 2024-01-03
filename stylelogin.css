@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+div 
+{
+    width: 20pc;
+    border: 2px solid black;
+    
+
+}
+div table
+{
+   background-color:  white;
+    opacity: 0.5;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelogin.css">
+    <title>E-comerce</title>
+</head>
+<body>
+  <center>
+    <div>
+        <table>
+            <tr>
+                <th>
+                    Sign in
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td>
+                    <input type="text" id="Lname" required placeholder="User name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    password:
+                </td>
+                <td>
+                    <input type="password" id="LPass" required placeholder="password">
+                </td>
+            </tr>
+        </table><br>
+                <button onclick="log_in()">Log in</button>
+                <br><br>
+                <button>Forget</button>
+                <br><br>
+                
+         
+      </div>
+
+      <br><br><br><br><br>
+      <div>
+        <table>
+            <tr>
+                <th>
+                    Sign up
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td>
+                    <input type="text" id="upname" required placeholder="User name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    password:
+                </td>
+                <td>
+                    <input type="password" id="Upass" required placeholder="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Age:
+                </td>
+                <td>
+                    <input type="text" id="Age" required placeholder="Age">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" id="G1" name="g">
+                    <label>Male</label>
+                    <input type="radio" id="G2" name="g">
+                    <label>female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone number:
+                </td>
+                <td>
+                    <input type="text" id="Phone" required placeholder="phone number">
+                </td>
+            </tr>
+
+        </table><br>
+                <button onclick="sign_up()">Sign up</button>
+                <br><br>
+                
+         
+      </div>
+      <br><br><br><br><br>
+      <div>
+        <table>
+            <tr>
+                <th>
+                    forget password
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td>
+                    <input type="text" id="fname" required placeholder="User name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    new password:
+                </td>
+                <td>
+                    <input type="password" id="fpass" required placeholder="new password">
+                </td>
+            </tr>
+        </table><br>
+                <button onclick="forget()">Update</button>
+                <br><br>
+                
+         
+      </div>
+  </center>
+
+  <script src="Script.js"></script>
+</body>
+</html>
